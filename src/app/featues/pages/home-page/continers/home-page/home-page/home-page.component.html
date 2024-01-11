@@ -1,0 +1,10 @@
+<div h1 class="containerTitle">Currency Convert</div>
+<div class="container">
+  <app-input-number (updateInput)="changeNumberCho($event)" textLabel= "Choose number"></app-input-number>
+  <div class="home-re"></div>
+  <app-drop-down-currency  textLabel= "Select Currency from" (updateDropdown)="updateFrom($event)" [rates]="listCurrency"></app-drop-down-currency>
+  <span ><mat-icon>arrow_forward</mat-icon></span>
+  <app-drop-down-currency textLabel= "Select Currency to" (updateDropdown)="updateTo($event)" [rates]="listCurrency"></app-drop-down-currency>
+</div>
+<div class="error-minus" *ngIf=" numberChoose  < 0" >המספר הנבחר חייב להיות גדול מ 0</div>
+<div *ngIf="fromSelected.value * numberChoose *  toSelected.value != 0" class="containerTitle"><span>{{numberChooseString}} {{fromSelected.key}} =  </span>  <span>{{toSelected.key}} {{resultConvert}}</span> </div>

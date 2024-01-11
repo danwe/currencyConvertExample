@@ -1,0 +1,68 @@
+{
+  "items": [
+    {
+      "dateUpdate": "1704357772901",
+      "id": 1,
+      "user": "300738267",
+      "currFrom": "EUR",
+      "currTo": "AED",
+      "value": "5651.77",
+      "valueConvert": "22670.379824"
+    },
+    {
+      "dateUpdate": "1704357814270",
+      "id": 2,
+      "user": "300738267",
+      "currFrom": "EUR",
+      "currTo": "AED",
+      "value": "5652",
+      "valueConvert": "22671.302399999997"
+    },
+    {
+      "dateUpdate": "1704363593120",
+      "id": 3,
+      "user": "300738267",
+      "currFrom": "AED",
+      "currTo": "ALL",
+      "value": "5454",
+      "valueConvert": "142170.57319505388"
+    },
+    {
+      "dateUpdate": "1704841414819",
+      "id": 4,
+      "user": "300738267",
+      "currFrom": "ALL",
+      "currTo": "AED",
+      "value": "4",
+      "valueConvert": "0.15289653225829444"
+    },
+    {
+      "dateUpdate": "1704841492544",
+      "id": 5,
+      "user": "300738267",
+      "currFrom": "AED",
+      "currTo": "AED",
+      "value": "5",
+      "valueConvert": "4.999999999999999"
+    },
+    {
+      "dateUpdate": "1704841495928",
+      "id": 6,
+      "user": "300738267",
+      "currFrom": "AED",
+      "currTo": "AED",
+      "value": "55",
+      "valueConvert": "55"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
