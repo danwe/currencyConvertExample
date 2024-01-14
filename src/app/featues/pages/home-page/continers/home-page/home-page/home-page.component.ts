@@ -7,6 +7,7 @@ import { ItemService } from 'src/app/core/services/items.service';
 import { Item } from 'src/app/core/models/const/item';
 import { UserService } from 'src/app/core/services/user.service';
 import { User } from 'src/app/core/models/const/user';
+import { Root } from 'src/app/core/models/const/root';
 
 @Component({
   selector: 'app-home-page',
@@ -43,7 +44,7 @@ export class HomePageComponent {
     conversion_rates:{ key: '', value: 0},
   };
 
-  listUser: Array<User> = [];
+  listUser: Array<Root> = [];
 
   numberChoose: number = 0;
   numberChooseString: string = '';
