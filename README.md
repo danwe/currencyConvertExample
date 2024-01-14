@@ -16,3 +16,9 @@ json server save history convert currency
 becousw the api call was empty i create another api and you can to change base currency
 
 `https://v6.exchangerate-api.com/v6/95539951db2702fc3a8b2fa7/latest/EUR` 
+
+## Create json to models typescript
+`https://transform.tools/json-to-typescript` 
+
+## Create json to models .net 
+`https://json2csharp.com/` 
